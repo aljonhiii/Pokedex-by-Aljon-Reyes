@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand"> CREATED BY: ALJON VELARIO REYES</div>
+  </nav>
+
+  <div class="container">
+    <h1>Pokédex</h1>
+    <input type="text" id="search" placeholder="Search Pokémon..." />
+    <div id="pokedex"></div>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modal-img" src="" alt="Pokemon"/>
+      <h2 id="modal-name"></h2>
+      <div class="stats" id="modal-stats"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
